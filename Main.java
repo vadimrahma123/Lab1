@@ -86,7 +86,7 @@ public class Main {
             }
         }
         else {
-            if (equals) {
+            if (equals1) {
                 out.println("c d имеют мин остаток. Изнач число: " + c);
             } else {
                 out.println(lett2 + " имеет мин остаток. Изнач число: " + mn);
