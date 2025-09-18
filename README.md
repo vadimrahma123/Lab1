@@ -106,8 +106,7 @@
 
 graph TD
  A([Начало]) --> B[Ввести X]
- D1 --> C
- D --> E[Посчитать a1, b1, c1, d1 и объявить mn1, mn2, mn11, mn22 equals, equals1, lett1, lett2, mn]
+ B --> C[Посчитать a1, b1, c1, d1 и объявить mn1, mn2, mn11, mn22 equals, equals1, lett1, lett2, mn]
  E --> F{a1<= b1}
  F -- "Да" --> F3[mn1=a1,  lett1 = 'A', mn=a]
  F -- "Нет" --> F4[mn1=b1, lett2 = 'B', mn=b]
